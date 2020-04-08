@@ -1,74 +1,68 @@
-/****** Main Styling ******/
-
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	color: #222;
-	background-color: #FaFaFa;
-	text-align: center;
+	background-color: #b3ffb3;
 	line-height: 1.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
-	padding: 0;
-	margin-top: 40px;
+  max-width: 700px;
+	padding: 1em 3em;
+	margin-top: 1.2em;
+  border: 2px black solid;
+  background: #ff944d;
+  text-align: center;
+  box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+              0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+.text{
+  text-align: justify;
+  margin-bottom: -1em;
+}
+
+h2 {
+  margin-top: -.05em;
 }
 
 h3 {
-  margin-top: 30px;
+  margin-top: 1.875em;
 }
 
-.footer {
-	margin-top: 40px;
-}
-
-.user-stories {
-  position: relative;
-  text-align: justify;
-  max-width: 700px;
-  margin: 15px auto;
-}
 code {
   font-family: monospace;
-  padding: 2px;
+  padding: .15em;
   color: black;
   background-color: #fff;
 }
-ol {
-	list-style-position: inside;
-}
-ul {
-	list-style-type: none;
-}
-
-li {
-  margin-bottom: 0.5em;
-}
-.user-stories li {
-  margin-bottom: 1em;
-}
 
 a {
-	color: #2574A9;
-}
-
-form {
-  border: solid 1px black;
-  border-radius: 5px;
-  margin: 10px auto;
-  padding: 20px;
-  max-width: 600px;
-}
-
-label {
-  margin-right: 10px;
+  color:  #0000FF;
 }
 
 input {
-  padding: 5px;
+  padding: .35em;
 }
 
-input[type=text] {
-  width: 220px;
-  text-align: center;
+#url_input {
+  width: 300px;
+  border: 1px black solid;
+}
+
+.button {
+  border-radius: 2px;
+  border: 2px #b3ffb3 solid;
+  background: #b3ffb3;
+  cursor: pointer;
+}
+
+#shortUrl {
+  padding: .3em;
+  background: white;
+  border-radius: 1px;
 }
