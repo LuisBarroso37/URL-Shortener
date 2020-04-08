@@ -19,3 +19,5 @@ https://url-shortener-lb.glitch.me/api/shorturl/WONEDRXJA
 #### Will redirect to:
 
 https://www.freecodecamp.org/forum/
+
+![screencapture-url-shortener-lb-glitch-me-2020-04-08-20_55_51](https://user-images.githubusercontent.com/58770446/78822522-84246d80-79db-11ea-904e-5f0a4870ef9a.png)
